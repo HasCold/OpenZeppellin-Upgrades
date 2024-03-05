@@ -1,0 +1,38 @@
+await num2.get()
+(await num2.get()).toString();
+await num2.increment();
+await num.increment();
+(await num2.get()).toString();
+await num2.increment();
+const num2 = await NUM2.attach("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+const NUM2 = await ethers.getContractFactory("NUM2");
+const NUM2 = await ethers.getContractFactory("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+await num.get();
+(await num.get()).toString();
+const num = await NUM1.attach("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+const NUM1 = await ethers.getContractFactory("NUM1");
+const NUM1 = ethers.getContractFactory("NUM1");
+clear
+cls
+await (num.get()).toNumber();
+(await num.get()).toNumber();
+(await num.get()).toString();
+(await num.update()).toString();
+await num.update();
+num.get()
+num
+await num.get.value;
+console.log(await num.get.value);
+console.log(await num.get().value);
+console.log(await num.get());
+await num.get()
+(await num.get()).toString();
+(await num.get).toString();
+num
+typeof num
+(await num.get()).toString();
+(await num1.get()).toString();
+(await num.get()).toString();
+await num.get();
+const num = await NUM1.attach("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+const NUM1 = await ethers.getContractFactory("NUM1");

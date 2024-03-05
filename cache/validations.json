@@ -1,0 +1,238 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/NUM2.sol:NUM2": {
+        "src": "contracts\\NUM2.sol:4",
+        "version": {
+          "withMetadata": "4e039c1fdf05f97363560908d308d23b3425c87e314635138f5535d53458ac1a",
+          "withoutMetadata": "d73849141d1d6d139c958fc57623a4bc1df145b3a4f3a7a64cd50daf1923ff2c",
+          "linkedWithoutMetadata": "d73849141d1d6d139c958fc57623a4bc1df145b3a4f3a7a64cd50daf1923ff2c"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM2",
+              "src": "contracts\\NUM2.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/Lock.sol:Lock": {
+        "src": "contracts\\Lock.sol:7",
+        "version": {
+          "withMetadata": "e3ebdda746a57c829d002dc9fc00c5bbe1014526227fe6c02f80c0491aa040b0",
+          "withoutMetadata": "32d3554bc8a13582db0b28868b0c01929a838351fd373d89fd187b5992f6da5b",
+          "linkedWithoutMetadata": "32d3554bc8a13582db0b28868b0c01929a838351fd373d89fd187b5992f6da5b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "withdraw()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Lock",
+            "src": "contracts\\Lock.sol:13"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "unlockTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Lock",
+              "src": "contracts\\Lock.sol:8"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_address_payable",
+              "contract": "Lock",
+              "src": "contracts\\Lock.sol:9"
+            }
+          ],
+          "types": {
+            "t_address_payable": {
+              "label": "address payable",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/NUM.sol:NUM1": {
+        "src": "contracts\\NUM.sol:4",
+        "version": {
+          "withMetadata": "b10c77aff955f797e9511617abf0080effe0d2463815ffd4190763be4caba4c4",
+          "withoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca",
+          "linkedWithoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM1",
+              "src": "contracts\\NUM.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/Lock.sol:Lock": {
+        "src": "contracts\\Lock.sol:7",
+        "version": {
+          "withMetadata": "e3ebdda746a57c829d002dc9fc00c5bbe1014526227fe6c02f80c0491aa040b0",
+          "withoutMetadata": "32d3554bc8a13582db0b28868b0c01929a838351fd373d89fd187b5992f6da5b",
+          "linkedWithoutMetadata": "32d3554bc8a13582db0b28868b0c01929a838351fd373d89fd187b5992f6da5b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "withdraw()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Lock",
+            "src": "contracts\\Lock.sol:13"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "unlockTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Lock",
+              "src": "contracts\\Lock.sol:8"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_address_payable",
+              "contract": "Lock",
+              "src": "contracts\\Lock.sol:9"
+            }
+          ],
+          "types": {
+            "t_address_payable": {
+              "label": "address payable",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/NUM.sol:NUM1": {
+        "src": "contracts\\NUM.sol:4",
+        "version": {
+          "withMetadata": "b10c77aff955f797e9511617abf0080effe0d2463815ffd4190763be4caba4c4",
+          "withoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca",
+          "linkedWithoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM1",
+              "src": "contracts\\NUM.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    }
+  ]
+}

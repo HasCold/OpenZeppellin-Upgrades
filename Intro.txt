@@ -1,0 +1,22 @@
+Smart contract deployed using OpenZeppelin Upgrades Plugins can be upgraded to modify their code, while presrving their address, state and balance.
+
+This allows you to add iteratively add new features to your new project or fix any bugs you may find any bugs in production.
+
+deployProxy in the OpenZeppelin Upgrades Plugins.
+
+
+Upgrading Process :- 
+
+User doesn't interact directly with the NUM1 smart contract.
+
+User  --->>   Proxy Smart Contract  --->>   Update()  NUM1(Smart Contract)
+
+
+---------------------- Important Points -------------------
+
+Logic Use - Implementation Contract (NUM1, NUM2)
+State Use - Proxy Contract (num 10)
+
+
+. When you deploy a contract using deployProxy that contract instance can be upgraded later.
+. We are using just like as a abstraction of Proxy Smart Contract which doesn't affect the immutability of our blockchain.

@@ -1,0 +1,25 @@
+npm install --save-dev @openzeppelin/hardhat-upgrades
+
+npm install --save-dev @nomicfoundation/hardhat-ethers
+
+
+Hardhat command script :-
+
+npx hardhat compile
+
+Run these both commands together :
+Start a local node :- npx hardhat node
+npx hardhat run --network localhost scripts/num1-scripts.js
+npx hardhat run --network localhost scripts/upgrade_num1.js   // To Upgrade the smart contract
+
+
+Using the hardhat console to directly test and call the function :- npx hardhat console --network localhost
+
+Example to use hardhat console :-
+
+const NUM1 = await ethers.getContractFactory("NUM1");
+undefined
+> const num = await NUM1.attach("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+undefined
+> (await num.get()).toString();
+'10'
